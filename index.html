@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrawebdesign</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lexend+Deca:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        html {
+            font-size: 1rem;
+        }
+        body {
+            background-color: #040d12;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        p {
+            color: white;
+        }
+
+        .main-container {
+            height: 100vh;
+            background: url(./images/background-pattern.png) right no-repeat;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            background: url(./images/title-background.png) left no-repeat;
+            background-size: 65%;
+            height: 100vh;
+            gap: 20px;
+            margin-left: 50px;
+        }
+
+        @media (max-width: 1200px) {
+            .container {
+                background-size: 100%;
+            }
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            padding-left: 100px;
+            color: white;
+            font-family: "Lexend Deca", sans-serif;
+            font-weight: 600;
+            margin: 0px;
+        }
+
+        .title{
+            font-size: 2.5rem;
+            padding-left: 100px;
+            font-family: "Inconsolata", monospace;
+            margin: 0px;
+        }
+
+        .about-me-section {
+            display: flex;
+            height: 100vh;
+            margin: 0px;
+            padding: 0px;           
+        }
+
+        .about-me {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+            width: 50%;
+            background: url(./images/background-wavy-circle.png) left bottom no-repeat;
+            background-size: 500px;
+            padding-left: 50px;
+        }
+
+        .about-me-img {
+            width: 50%;
+            background-image: url(./images/background-wavy-circle.png);
+            background-position: top 15% right;
+            background-repeat: no-repeat;
+            background-size: 700px;
+        }
+
+        h2 {
+            font-size: 50px;
+            font-family: "Lexend Deca", sans-serif;
+            font-weight: 500;
+            color: white;
+        }
+
+        .about-me-paragraph {
+            font-family: "Raleway", sans-serif;
+            font-size: 20px;
+            width: 20% ;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <!-- title -->
+ <section>
+   <div class="main-container">
+    <div class="container">
+        <h1>Hi, Im Petra</h1>
+       <div class="paragraph">
+          <p class="title"> < Webdesigner and Web Developer /></p>
+       </div>
+    </div>
+   </div>
+ </section>
+
+ <!-- about me -->
+ <section>
+   <div class="about-me-section">
+    <div class="about-me">
+        <h2> < About Me/></h2>
+        <p class="about-me-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis metus et libero sagittis, ac molestie leo varius. Praesent tempus, eros semper ultrices sollicitudin, ante nulla mollis metus, id efficitur elit lorem id dolor. </p>
+    </div>
+    <div class="about-me-img"></div>
+   </div>
+ </section>
+
+ <!-- portfolio -->
+  <section>
+
+  </section>
+
+  <!-- footer -->
+   <section>
+
+   </section>
+</body>
+</html>
