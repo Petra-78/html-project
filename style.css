@@ -291,7 +291,8 @@ h3 {
 
 } 
 
-@media (max-width: 720px) {
+
+@media (min-width: 550px) and (max-width: 720px) {
     .container {
         background-size: 100%;
         background-position: center;
@@ -306,7 +307,7 @@ h3 {
     
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
         padding-left: 50px;
         color: white;
         font-family: "Lexend Deca", sans-serif;
@@ -315,11 +316,12 @@ h3 {
     }
 
     .title{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         padding-left: 50px;
         padding-right: 50px;
         font-family: "Inconsolata", monospace;
         margin: 0px;
+        text-align: left;
     }
 
     .about-me-section {
@@ -426,3 +428,143 @@ h3 {
     }     
 
  } 
+
+ @media (max-width: 550px) {
+    .container {
+        background-size: 100%;
+        background-position: center;
+        background-image: url(./images/title-background-phone.png);
+        height: 100vh;
+        margin: 0px;
+        gap: 30px;
+}
+
+    .main-container {
+        height: 100vh;
+}
+    
+
+    h1 {
+        font-size: 2.3rem;
+        padding-left: 10%;
+        padding-right: 10%;
+        color: white;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 600;
+        margin: 0px;
+    }
+
+    .title{
+        font-size: 1.8rem;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-family: "Inconsolata", monospace;
+        margin: 0px;
+        text-align: left;
+    }
+
+    .about-me-section {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;           
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        width: 100%;
+        background: url(./images/background-wavy-circle.png) left bottom no-repeat;
+        background-size: 300px;
+    }
+
+    .about-me-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-image: url(./images/background-wavy-circle.png);
+        background-position: top 20% right;
+        background-repeat: no-repeat;
+        background-size: 350px;
+    }
+
+    .about-me-img-pic {
+        width: 70%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 35px;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 500;
+        color: white;
+        text-align: left;
+    }
+
+    .about-me-paragraph {
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        width: 80% ;
+        text-align: justify;
+        padding: 20px;
+    }       
+
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-top: 35%;
+    }
+
+    .portfolio-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-top: 10%;
+        gap: 20px;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        height: auto;
+        width: 80%;
+        padding: 10%;
+        background-image: url(./images/project-background.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .portfolio-img {
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+        font-family: "Lexend Deca", sans-serif;
+        font-weight: 500;
+        color: white;
+        text-align: center; 
+        margin-bottom: 0px;
+    }
+
+    .project-paragraphs {
+        text-align: center;
+        font-size: 16px;
+        width: 80%;
+    }     
+
+ } 
+
